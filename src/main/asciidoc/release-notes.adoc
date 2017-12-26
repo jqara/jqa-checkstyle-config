@@ -1,0 +1,6 @@
+
+= jQAssistant Checkstyle Configuration Release Notes
+
+include::1.4.0.adoc[]
+
+
