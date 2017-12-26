@@ -1,0 +1,9 @@
+target
+/.idea
+/src/main/asciidoc/*.html
+*.iml
+*.ipr
+*~
+*.log
+.DS_Store
+
