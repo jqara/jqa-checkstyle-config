@@ -1,0 +1,7 @@
+= jQAssistant Checkstyle configuration
+
+http://checkstyle.sourceforge.net/[Checkstyle configuration^] of
+of https://www.jqassistant.org[jQAssistant^] to ensure a our
+coding standards.
+
+For more information on jQAssistant see https://www.jqassistant.org[^].
