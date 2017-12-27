@@ -6,11 +6,11 @@
   <module name="TreeWalker">
 
     <module name="ImportOrder">
-      <property name="groups" value="/^java?./,/^javax?./,/^com.buschmais?./"/>
+      <property name="groups" value="java,javax,com.buschmais,*"/>
       <property name="ordered" value="true"/>
       <property name="separated" value="true"/>
       <property name="option" value="bottom"/>
-      <!--<property name="sortStaticImportsAlphabetically" value="true"/>-->
+      <property name="sortStaticImportsAlphabetically" value="true"/>
     </module>
 
     <module name="RedundantImport"/>
