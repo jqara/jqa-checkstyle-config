@@ -15,7 +15,7 @@
             files="RowType.java|RowsType.java|JqassistantReport.java|ColumnsHeaderType.java"/>
 
   <suppress checks="ImportOrder"
-            files="ScopeType.java|ScannerType.java|RulesType.java|ModelType.java" />
+            files="ScopeType.java|ScannerType.java|RulesType.java|ModelType.java|RuleLanguageType.java" />
 
   <suppress checks="ImportOrder"
             files="HelpMojo.java" />
