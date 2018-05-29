@@ -10,7 +10,7 @@
 
   <groupId>com.buschmais.jqassistant</groupId>
   <artifactId>checkstyle-config</artifactId>
-  <version>1.4.0</version>
+  <version>1.5.0-SNAPSHOT</version>
 
   <name>jQAssistant Checkstyle Configuration</name>
   <inceptionYear>2016</inceptionYear>
@@ -31,7 +31,7 @@
       <connection>scm:git:git@github.com:buschmais/jqa-checkstyle-config.git</connection>
       <developerConnection>scm:git:git@github.com:buschmais/jqa-checkstyle-config.git</developerConnection>
       <url>https://github.com/buschmais/jqa-checkstyle-config</url>
-      <tag>1.4.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
   <properties>
