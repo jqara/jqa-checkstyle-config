@@ -28,6 +28,12 @@
     </license>
   </licenses>
 
+    <scm>
+      <connection>scm:git:git@github.com:buschmais/jqa-checkstyle-config.git</connection>
+      <developerConnection>scm:git:git@github.com:buschmais/jqa-checkstyle-config.git</developerConnection>
+      <url>https://github.com/buschmais/jqa-checkstyle-config</url>
+    </scm>
+
   <properties>
     <skipTests>true</skipTests>
     <jqa-own-constraints.version>1.4.0</jqa-own-constraints.version>
