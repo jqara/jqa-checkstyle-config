@@ -1,14 +1,4 @@
 ifndef::jqa-in-manual[== Version 1.4.0]
 ifdef::jqa-in-manual[== Checkstyle Configuration 1.4.0]
 
-=== Support for Junit 5 added
-
-=== Renamed constraints
-
-* Renamed `junit4:IgnoreWithoutMessage` to `junit:IgnoreWithoutMessage` because
-  of added support for JUnit 5.
-* Renamed `junit:IgnoreWithoutMessage` to `junit:AssertionMustProvideMessage` because
-  of added support for JUnit 5.
-* Renamed `junit4:TestMethodWithoutAssertion` to `junit:TestMethodWithoutAssertion`
-  because of added support for JUnit 5.
-
+No changes in this release.
