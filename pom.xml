@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.buschmais.jqassistant</groupId>
     <artifactId>jqa-uber-parent</artifactId>
-    <version>1.5.0-RC-2-SNAPSHOT</version>
+    <version>1.5.0</version>
   </parent>
 
   <groupId>com.buschmais.jqassistant</groupId>
   <artifactId>checkstyle-config</artifactId>
-  <version>1.5.0-RC-2-SNAPSHOT</version>
+  <version>1.5.0</version>
 
   <name>jQAssistant Checkstyle Configuration</name>
   <inceptionYear>2016</inceptionYear>
@@ -35,7 +35,7 @@
 
   <properties>
     <skipTests>true</skipTests>
-    <jqa-own-constraints.version>1.5.0-RC-2-SNAPSHOT</jqa-own-constraints.version>
+    <jqa-own-constraints.version>1.5.0</jqa-own-constraints.version>
   </properties>
 
   <build>
