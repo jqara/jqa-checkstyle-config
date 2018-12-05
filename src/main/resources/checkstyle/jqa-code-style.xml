@@ -22,6 +22,9 @@
       <property name="processJavadoc" value="true"/>
     </module>
 
+      <module name="ImportControl">
+          <property name="file" value="/checkstyle/import-control.xml"/>
+      </module>
     <module name="NeedBraces"/>
 
   </module>

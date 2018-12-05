@@ -1,0 +1,32 @@
+<!DOCTYPE import-control PUBLIC
+    "-//Checkstyle//DTD ImportControl Configuration 1.4//EN"
+    "https://checkstyle.org/dtds/import_control_1_4.dtd">
+<import-control pkg="com\.buschmais.jqassistant"
+                strategyOnMismatch="allowed" regex="true">
+
+
+    <subpackage name="plugin\.junit\..+"
+                regex="true" strategyOnMismatch="allowed">
+        <!--
+         ! As the code of the Junit plugin uses classes
+         ! from Junit 3 and Junit 4. Therefore it is not
+         ! possible to restrict the usage of any Junit
+         ! version.
+         ! Oliver B. Fischer, 2018-12-12
+         !-->
+    </subpackage>
+
+    <subpackage name="(?!plugin\.junit).+"
+                regex="true" strategyOnMismatch="allowed">
+        <!--
+         ! Disallowing the usage of Junit 4 as we will use Junit 5
+         ! now.
+         ! Oliver B. Fischer, 2018-12-12
+         !-->
+        <disallow class="org.junit.runner.RunWith"/>
+        <disallow class="org.junit.After"/>
+        <disallow class="org.junit.Before"/>
+        <disallow class="org.junit.Test"/>
+        <disallow class="org.junit.Ignore"/>
+    </subpackage>
+</import-control>
