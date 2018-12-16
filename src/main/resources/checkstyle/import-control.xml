@@ -16,6 +16,14 @@
          !-->
     </subpackage>
 
+    <subpackage name="core\..+"
+                regex="true" strategyOnMismatch="allowed">
+        <!--
+         ! The core still uses Junit 4. This is a open task.
+         ! Oliver B. Fischer, 2018-12-16
+         !-->
+    </subpackage>
+
     <subpackage name="(?!plugin\.junit).+"
                 regex="true" strategyOnMismatch="allowed">
         <!--
