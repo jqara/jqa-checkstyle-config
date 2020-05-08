@@ -1,4 +1,3 @@
-target
 /.idea
 /src/main/asciidoc/*.html
 *.iml
@@ -17,3 +16,6 @@ pom.xml.updatetonextdevversion
 # Ignore temporary shell scripts used to script small tasks
 *.sh.ignore
 
+# Maven related files and directories
+target
+/.mvn
