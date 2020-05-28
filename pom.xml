@@ -20,7 +20,13 @@
     Checkstyle configuration of of jQAssistant to ensure our coding standards.
   </description>
 
-  <licenses>
+    <organization>
+        <name>jQAssistant Development Team</name>
+        <url>https://jqassistant.org</url>
+    </organization>
+
+
+    <licenses>
     <license>
       <name>GNU General Public License, v3</name>
       <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
