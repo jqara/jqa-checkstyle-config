@@ -1,6 +1,6 @@
 = jQAssistant Checkstyle configuration
 
-http://checkstyle.sourceforge.net/[Checkstyle configuration^] of
+http://checkstyle.sourceforge.net/[Checkstyle configuration^]
 of https://www.jqassistant.org[jQAssistant^] to ensure our
 coding standards.
 
