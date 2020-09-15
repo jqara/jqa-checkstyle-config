@@ -1,7 +1,5 @@
 = jQAssistant Checkstyle configuration
 
-image::https://github.com/jQAssistant/jqa-checkstyle-config/workflows/jQA%20Standard%20CI%20Build/badge.svg[jQA Standard CI Build]
-
 http://checkstyle.sourceforge.net/[Checkstyle configuration^] of
 of https://www.jqassistant.org[jQAssistant^] to ensure our
 coding standards.
