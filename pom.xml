@@ -34,8 +34,8 @@
   </licenses>
 
     <scm>
-      <connection>scm:git:git@github.com:jqassistant/jqa-checkstyle-config.git</connection>
-      <developerConnection>scm:git:git@github.com:jqassistant/jqa-checkstyle-config.git</developerConnection>
+      <connection>scm:git:git@github.com:jqara/jqa-checkstyle-config.git</connection>
+      <developerConnection>scm:git:git@github.com:jqara/jqa-checkstyle-config.git</developerConnection>
       <url>https://github.com/jqassistant/jqa-checkstyle-config</url>
       <tag>HEAD</tag>
   </scm>
